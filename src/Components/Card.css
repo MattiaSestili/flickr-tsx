@@ -1,0 +1,12 @@
+.Photo-Tag {
+  display: inline-block;
+  padding: 2px 5px;
+  margin-bottom: .1rem;
+  background: lightskyblue;
+  border-radius: 8px;
+  word-break: break-all;
+}
+
+.Photo-Tag:not(:last-child) {
+  margin-right: .25rem;
+}
